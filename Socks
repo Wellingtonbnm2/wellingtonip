@@ -89,9 +89,9 @@
     {
       "Name": "OI TLS 02",
       "FLAG": "oi",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br01.grupodanet.com\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "106.16.56.6",
+      "TlsIP": "104.16.56.6",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
