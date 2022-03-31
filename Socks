@@ -92,8 +92,8 @@
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: br01.grupodanet.com\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.56.6",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
