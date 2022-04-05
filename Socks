@@ -39,7 +39,7 @@
     {
       "Name": "VIVO - CLARO - TIM - OI",
       "FLAG": "vivo",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: carvaandre.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: carvaandre.xyz[crlf]X-Forward-Host: carvaandre.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -59,7 +59,7 @@
     {
       "Name": "TIM - VIVO",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: carvaandre.xyz [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: carvaandre.xyz [crlf]X-Forward-Host: carvaandre.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
