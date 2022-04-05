@@ -1,8 +1,8 @@
 {
   "Version": "1.0.0",
   "ReleaseNotes": "TESTE UPDATE ONLINE ",
-  "UrlUpdate": "",
-  "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
+  "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
+  "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
   "EmailFeedback": "gdncontas@gmail.com",
   "UrlContato": "http://bit.ly/zapinternet4g",
   "UrlTermos": "https://raw.githubusercontent.com/Wellingtonbnm2/atlantus_key.cc/main/termos.html",
@@ -31,15 +31,15 @@
       "ServerIP": "carvaandre.xyz",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
+      "USER": "w66666666",
+      "PASS": "w66666666"
     }
   ],
   "Networks": [
     {
       "Name": "VIVO - CLARO - TIM - OI",
       "FLAG": "vivo",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: carvaandre.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -49,7 +49,7 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: carvaandre.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -59,7 +59,7 @@
     {
       "Name": "TIM - VIVO",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: och.atecubanos.tk [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: carvaandre.xyz [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
@@ -69,7 +69,7 @@
     {
       "Name": "CLARO SEM PROMOÇÃO",
       "FLAG": "claro",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: carvaandre.xyz[crlf]X-Forward-Host: carvaandre.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -79,7 +79,7 @@
     {
       "Name": "OI - VIVO",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: carvaandre.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
