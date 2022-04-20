@@ -133,92 +133,12 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 02",
-      "FLAG": "claro",
-      "Payload": "GET ws://tudofoneapp.parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "tudofoneapp.parceirosclaro.com.br",
-      "TlsIP": "tudofoneapp.parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 03",
-      "FLAG": "claro",
-      "Payload": "GET ws://tudofoneapi.parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "tudofoneapi.parceirosclaro.com.br",
-      "TlsIP": "tudofoneapi.parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 04",
-      "FLAG": "claro",
-      "Payload": "GET ws://chaveiroclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "chaveiroclaro.com.br",
-      "TlsIP": "chaveiroclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 05",
-      "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO SSL 06",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 07",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 08",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 09",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
     },
     {
       "Name": "OI PROXY 01",
