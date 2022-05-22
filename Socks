@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.2",
   "ReleaseNotes": "GDN SOCKS VIP",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -31,7 +31,7 @@
       "FLAG": "br.png",
       "ServerIP": "br01.grupodanet.com",
       "CheckUser": "http://179.127.16.155:5454/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
@@ -51,12 +51,12 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET wss://backoffice-equipamentos01.vivo.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
-      "Info": "Direct"
+      "Payload": "GET sni://backoffice-equipamentos01.vivo.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]X-Forward-Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "backoffice-equipamentos01.vivo.com.br",
+      "TlsIP": "backoffice-equipamentos01.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM DIRECT",
@@ -64,7 +64,7 @@
       "Payload": "GET wss://cutim.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "cutim.com.br",
-      "ProxyIP": "cutim.com.br",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
