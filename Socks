@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "GDN SOCKS VIP",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -31,8 +31,8 @@
       "FLAG": "br.png",
       "ServerIP": "br01.grupodanet.com",
       "CheckUser": "http://179.127.16.155:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
+      "ServerPort": "",
+      "SSLPort": "",
       "USER": "",
       "PASS": ""
     }
