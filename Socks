@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "GDN SOCKS VIP",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -51,7 +51,7 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: br01-open.alecloud.xyz\nUpgrade: ws\n\n",
+      "Payload": "GET wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
@@ -59,9 +59,9 @@
       "Info": "Direct"
     },
     {
-      "Name": "TIM BR01| opção 01",
+      "Name": "TIM DIRECT",
       "FLAG": "tim",
-      "Payload": "GET wss://cutim.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com [crlf]X-Forward-Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "Payload": "GET wss://cutim.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "cutim.com.br",
       "ProxyIP": "cutim.com.br",
@@ -69,7 +69,7 @@
       "Info": "Proxy"
     },
     {
-      "Name": "TIM BR01",
+      "Name": "TIM SSL+PAY",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "static.r4you.co",
