@@ -39,7 +39,7 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO - CLARO - TIM - OI",
+      "Name": "VIVO SSL+PAY",
       "FLAG": "vivo",
       "Payload": "GET sni://vigia.vivo.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]X-Forward-Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
@@ -51,7 +51,7 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: br01-open.alecloud.xyz\nUpgrade: ws\n\n",
       "SNI": "",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
