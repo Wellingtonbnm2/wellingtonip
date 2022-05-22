@@ -51,10 +51,10 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "Payload": "GET wss://backoffice-equipamentos01.vivo.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
+      "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
       "Info": "Direct"
     },
