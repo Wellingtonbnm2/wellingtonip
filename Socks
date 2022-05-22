@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.0.2",
   "ReleaseNotes": "GDN SOCKS VIP",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -59,17 +59,17 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM DIRECT",
+      "Name": "TIM SSL+PAY",
       "FLAG": "tim",
-      "Payload": "GET wss://cutim.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "cutim.com.br",
+      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
       "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "TIM SSL+PAY",
+      "Name": "TIM SSL+SSH",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "static.r4you.co",
@@ -91,9 +91,9 @@
     {
       "Name": "OI - ALGUNS DDDs",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
+      "Payload": "GET wss://ww.hbogo.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ww.hbogo.com.br",
+      "TlsIP": "ww.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
