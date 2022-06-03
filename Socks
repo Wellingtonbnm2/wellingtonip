@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "✅NOVO MÉTODO CLARO ATUALIZADO✅",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -49,7 +49,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO Direct IPv4",
+      "Name": "VIVO Direct 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -81,9 +81,9 @@
     {
       "Name": "CLARO IPV4",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
