@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.6",
-  "ReleaseNotes": "✅TIM ATUALIZAÇÃO ✅",
+  "Version": "1.0.7",
+  "ReleaseNotes": "✅CLARO ATUALIZADO✅",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
   "EmailFeedback": "gdncontas@gmail.com",
@@ -81,10 +81,10 @@
     {
       "Name": "CLARO IPV4",
       "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "No.descomplica.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "icanhazip.com",
+      "ProxyIP": "icanhazip.com",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
