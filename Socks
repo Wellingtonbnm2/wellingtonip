@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.9",
-  "ReleaseNotes": "✅NOVO MÉTODO CLARO ATUALIZADO✅",
+  "Version": "1.1.0",
+  "ReleaseNotes": "✅ CORREÇÃO CLARO✅",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
   "EmailFeedback": "gdncontas@gmail.com",
@@ -82,9 +82,9 @@
       "Name": "CLARO NOVA IPV4",
       "FLAG": "claro",
       "Payload": "GET wss://blog.kaltura.com/ HTTP/1.1[crlf]Host: br01.grupodanet.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
+      "SNI": "blog.kaltura.com",
       "TlsIP": "blog.kaltura.com",
-      "ProxyIP": "blog.kaltura.com",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
