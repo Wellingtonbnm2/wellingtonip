@@ -24,7 +24,7 @@
     {
       "Name": "SERVIDOR B02",
       "TYPE": "premium",
-      "FLAG": "vn.png",
+      "FLAG": "br.png",
       "ServerIP": "br02.grupodanet.com",
       "CheckUser": "http://20.195.195.126:8888/server/online",
       "ServerPort": "22",
@@ -35,7 +35,7 @@
     {
       "Name": "SERVIDOR BR03",
       "TYPE": "premium",
-      "FLAG": "vn.png",
+      "FLAG": "br.png",
       "ServerIP": "br03.grupodanet.com",
       "CheckUser": "http://20.195.195.126:8888/server/online",
       "ServerPort": "22",
