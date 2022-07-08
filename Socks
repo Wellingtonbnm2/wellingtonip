@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.5",
+  "Version": "1.1.6",
   "ReleaseNotes": "ATUALIZAÇÃO VIVO",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
@@ -50,6 +50,16 @@
     "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
     "SNI": "legado.vivo.com.br",
     "TlsIP": "legado.vivo.com.br",
+    "ProxyIP": "",
+    "ProxyPort": "443",
+    "Info": "Tlsws"
+    },
+    {
+    "Name": "🟣VIVO ",
+    "FLAG": "vivo",
+    "Payload": "GET wss://concursos.alfaumuarama.edu.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "concursos.alfaumuarama.edu.br",
+    "TlsIP": "concursos.alfaumuarama.edu.br",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
