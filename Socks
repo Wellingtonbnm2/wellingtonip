@@ -45,7 +45,7 @@
   ],
   "Networks": [
     {
-    "Name": "🟣VIVO ",
+    "Name": "🟣VIVO easy ",
     "FLAG": "vivo",
     "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
     "SNI": "legado.vivo.com.br",
@@ -55,7 +55,7 @@
     "Info": "Tlsws"
     },
     {
-    "Name": "🟣VIVO ",
+    "Name": "🟣VIVO pre pago",
     "FLAG": "vivo",
     "Payload": "GET wss://concursos.alfaumuarama.edu.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
     "SNI": "concursos.alfaumuarama.edu.br",
