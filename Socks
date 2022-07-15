@@ -45,21 +45,31 @@
   ],
   "Networks": [
     {
-    "Name": "🟣VIVO easy ",
+    "Name": "🟣VIVO pre pago1️⃣",
     "FLAG": "vivo",
-    "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-    "SNI": "legado.vivo.com.br",
-    "TlsIP": "legado.vivo.com.br",
+    "Payload": "GET wss://gracegardencounseling.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "gracegardencounseling.com",
+    "TlsIP": "gracegardencounseling.com",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
     },
     {
-    "Name": "🟣VIVO pre pago",
+    "Name": "🟣VIVO pre pago2️⃣",
     "FLAG": "vivo",
     "Payload": "GET wss://concursos.alfaumuarama.edu.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
     "SNI": "concursos.alfaumuarama.edu.br",
     "TlsIP": "concursos.alfaumuarama.edu.br",
+    "ProxyIP": "",
+    "ProxyPort": "443",
+    "Info": "Tlsws"
+    },
+    {
+    "Name": "🟣VIVO easy ",
+    "FLAG": "vivo",
+    "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "legado.vivo.com.br",
+    "TlsIP": "legado.vivo.com.br",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
