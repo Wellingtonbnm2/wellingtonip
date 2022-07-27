@@ -1,6 +1,6 @@
 {
   "Version": "1.1.8",
-  "ReleaseNotes": "ATUALIZAÇÃO VIVO pre pago2",
+  "ReleaseNotes": "ATUALIZAÇÃO VIVO e TIM",
   "UrlUpdate": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/Socks",
   "Sms": "https://raw.githubusercontent.com/Wellingtonbnm2/wellingtonip/main/mensagem",
   "EmailFeedback": "gdncontas@gmail.com",
@@ -47,9 +47,9 @@
     {
     "Name": "🟣VIVO pre pago1️⃣",
     "FLAG": "vivo",
-    "Payload": "GET wss://gracegardencounseling.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-    "SNI": "gracegardencounseling.com",
-    "TlsIP": "gracegardencounseling.com",
+    "Payload": "GET wss://vivo1.grupodanet.xyz HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "vivo1.grupodanet.xyz",
+    "TlsIP": "vivo1.grupodanet.xyz",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
@@ -57,9 +57,9 @@
     {
     "Name": "🟣VIVO pre pago2️⃣",
     "FLAG": "vivo",
-    "Payload": "GET wss://concursos.alfaumuarama.edu.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-    "SNI": "concursos.alfaumuarama.edu.br",
-    "TlsIP": "concursos.alfaumuarama.edu.br",
+    "Payload": "GET wss://vivo2.grupodanet.xyz HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "vivo2.grupodanet.xyz",
+    "TlsIP": "vivo2.grupodanet.xyz",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
@@ -67,9 +67,9 @@
     {
     "Name": "🟣VIVO easy ",
     "FLAG": "vivo",
-    "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-    "SNI": "legado.vivo.com.br",
-    "TlsIP": "legado.vivo.com.br",
+    "Payload": "GET wss://vivo3.grupodanet.xyz HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+    "SNI": "vivo3.grupodanet.xyz",
+    "TlsIP": "vivo3.grupodanet.xyz",
     "ProxyIP": "",
     "ProxyPort": "443",
     "Info": "Tlsws"
@@ -77,9 +77,9 @@
     {  
         "Name": "🔵TIM ssl+pay",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
+      "Payload": "GET wss:/blog.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "blog.alura.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws" 
